@@ -67,19 +67,34 @@ header.top_header .button_mark a.btn-custom svg {
   }
 
   .button_mark a.btn-custom {
-    padding: 25px 15px;
+    padding: 16px 16px;
+    font-size: 20px;
+    font-weight: bold;
   }
 
 }
 
 @media (min-width: 576px) and (max-width: 767.98px) {
+
   .img_products img {
     height: 500px;
   }
+
+  .button_mark a.btn-custom {
+    padding: 22px 22px;
+  }
+
 }
 
 @media (min-width: 768px) and (max-width: 991.98px) {
-  /* Good Responsive */
+
+  .image_products img {
+    height: 520px;
+  }
+
+  .button_mark a.btn-custom {
+    padding: 22px 30px;
+  }
 }
 
 @media (min-width: 992px) and (max-width: 1199.98px) {
