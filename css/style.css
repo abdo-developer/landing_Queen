@@ -31,12 +31,12 @@ header.top_header img {
 }
 
 .button_mark a.btn-custom {
-  background-color: #F2B033;
+  background-color: green;
   padding: 22px 70px;
   margin: 33px 0;
-  border: 1px solid #da9109;
+  border: 1px solid rgb(2, 163, 2);
   border-radius: 25px;
-  color: black;
+  color: white;
   font-weight: 600;
   transition: all 0.5s ease-in-out;
   font-size: 40px;
@@ -45,7 +45,7 @@ header.top_header img {
 .button_mark a.btn-custom:active,
 .button_mark a.btn-custom:hover,
 .button_mark a.btn-custom:focus {
-  background-color: #da9109;
+  background-color: rgb(9, 94, 9);
   color: #fff;
 }
 
