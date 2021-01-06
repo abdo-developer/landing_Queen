@@ -1,0 +1,98 @@
+
+/* Style ThE css pages */
+
+/* import THE Fonts */
+
+@font-face {
+  src: url(../fonts/JFFlatregular.ttf);
+  font-family: ar-content;
+  font-family: 16px;
+}
+
+body {
+  direction: rtl;
+  font-family: ar-content;
+  font-size: 16px;
+  background-color: black;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: ar-heading;
+}
+
+header.top_header img {
+  height: 200px;
+}
+
+.button_mark a {
+  background-color: transparent;
+  border: none;
+  text-decoration: none;
+}
+
+.button_mark a.btn-custom {
+  background-color: #F2B033;
+  padding: 22px 70px;
+  margin: 33px 0;
+  border: 1px solid #da9109;
+  border-radius: 25px;
+  color: black;
+  font-weight: 600;
+  transition: all 0.5s ease-in-out;
+  font-size: 40px;
+}
+
+.button_mark a.btn-custom:active,
+.button_mark a.btn-custom:hover,
+.button_mark a.btn-custom:focus {
+  background-color: #da9109;
+  color: #fff;
+}
+
+header.top_header .button_mark a.btn-custom svg {
+  font-size: 22px;
+}
+
+
+/* Responsive pages by Media Query */
+
+@media (min-width: 320px) and (max-width: 575.98px) {
+
+  .img_products img {
+    height: 280px;
+  }
+
+  header.top_header img {
+    height: 135px;
+  }
+
+  .button_mark a.btn-custom {
+    padding: 25px 15px;
+  }
+
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .img_products img {
+    height: 500px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  /* Good Responsive */
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    /* Responsive size GOOD */
+    
+    .img_products img {
+      height: 700px;
+    }
+
+}
+
+@media all and (min-width: 1200px) {
+  /* Responsive size GOOD */
+}
+
+
